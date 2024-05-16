@@ -4,7 +4,7 @@ int isAlphaNumeric(char c);
 int main(){
     char c;
     while((c=getchar())!=EOF){
-        if(c==' '||c=='\t'||c=='\n');
+        if(isAlphaNumeric(c)==0);
         else{
             putchar(c);
             while(isAlphaNumeric(c=getchar())){
