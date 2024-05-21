@@ -1,5 +1,5 @@
 #include <stdio.h>
-char* s = " \" ";
+
 void parseLineComment();
 void parseMultiLineComment();
 void parseString(char);
