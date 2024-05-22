@@ -38,6 +38,7 @@ int main(){
             
             case '/':
                 c=getchar();
+                ++bracketIndex;
                 if(c=='/'){
                     parseLineComment();
                     ++lineNumber;
