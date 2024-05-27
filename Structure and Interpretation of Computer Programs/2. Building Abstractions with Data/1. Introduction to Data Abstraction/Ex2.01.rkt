@@ -1,0 +1,10 @@
+#lang sicp
+(define (make-rat n d)
+  (let ((g (gcd n d)))
+    (let ((reduced-n (/ n g))
+          (reduced-d (/ d g)))
+      (cond ((= reduced-d 0) (error "Division by zero! -- MAKE_RAT"))
+          ((< (* reduced-n reduced-d) 0) (cons (- (abs reduced-n))
+                                               (abs (reduced-d))))
+          (else (cons (abs reduced-n)
+                      (abs (reduced-d))))))))
