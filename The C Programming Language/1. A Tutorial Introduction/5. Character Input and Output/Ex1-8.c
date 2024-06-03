@@ -4,7 +4,7 @@ int main(){
     int blanks=0;
     int tabs=0;
     int newlines=0;
-    char c;
+    int c;
     while((c=getchar())!=EOF){
         switch (c)
         {
