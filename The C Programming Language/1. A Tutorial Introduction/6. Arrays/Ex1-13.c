@@ -11,7 +11,7 @@ int max(int [], int);
 
 int main(){
     int wordLengths[16]={0};
-    char c;
+    int c;
     int counter = 0;
     int state = 0;
     while((c=getchar())!=EOF){
