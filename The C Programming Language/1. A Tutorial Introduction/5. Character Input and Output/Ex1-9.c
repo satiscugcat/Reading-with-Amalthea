@@ -4,7 +4,7 @@
 #define OFF 0
 
 int main(){
-    char c;
+    int c;
     int SWITCH=OFF;
     while((c=getchar())!=EOF){
         if(c==' '){
